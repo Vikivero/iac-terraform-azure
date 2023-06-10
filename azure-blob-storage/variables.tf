@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "Nazwa grupy zasobów"
   type        = string
-  default     = "my-group"
+  default     = "vikasgroup"
 }
 
 variable "resource_group_location" {
@@ -13,7 +13,7 @@ variable "resource_group_location" {
 variable "storage_account_name" {
   description = "Nazwa konta magazynu"
   type        = string
-  default     = "my-account"
+  default     = "vikasaccount"
 }
 
 variable "storage_account_tier" {
@@ -30,7 +30,7 @@ variable "storage_account_replication" {
 
 variable "container_name" {
   type    = string
-  default = "my-container"
+  default = "vikascontainer"
 }
 
 variable "container_access_type" {
@@ -40,7 +40,7 @@ variable "container_access_type" {
 
 variable "blob_name" {
   type    = string
-  default = "my-blob"
+  default = "vikasblob.jpg"
 }
 
 variable "blob_type" {
@@ -50,5 +50,5 @@ variable "blob_type" {
 
 variable "blob_path" {
   type    = string
-  default = "/home/viktoriia/terraform-proj/file0.txt"
+  default = "./img.jpg"
 }
